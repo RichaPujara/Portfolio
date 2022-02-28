@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:rgba(13, 13, 85, 0.208);
+    width:90vw;
+
+
+}
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding: 1em;
+    opacity:1;
+    
+}
+nav a{
+    padding:0.75em;
+    color:antiquewhite;
+}
+
+body{
+    font-family:Helvetica, Arial,serif;
+    background-color:#172130;
+    color:aliceblue;
+    width:80vw;
+    font-size:18px;
+
+}
+main{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+h1{
+    padding:.5em;
+    margin:auto;
+}
+h2{
+    margin-top:.7em;
+    flex-wrap:wrap;
+    width:80vw;
+    
+}
+#logo{
+    margin-top:4em;
+    width:10em;
+    height:10em;
+   
+    border-radius: 50%;
+}
+form{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+
+    
+    padding:1em;
+    margin:1em;
+
+}
+#phone{
+    width:1em;
+    height:1em;
+    background-color:aliceblue;
+    margin-top:.6em;
+    margin-right:.4em;
+    line-height:0.8em;
+}
+#email{
+    width:1.1em;
+    height:1.1em;
+    background-color:aliceblue;
+}
+.info{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:1em;
+    padding:1em;
+}
+.social-media{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding: 0.5em;em;
+    margin:0.5em;
+}
+
+.social-media img{
+    height:3em;
+    width:3em;
+    background-color: aliceblue;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+}
