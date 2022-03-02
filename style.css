@@ -399,14 +399,14 @@ form{
 
     }
     .tab-display img{
-        width:30vw;
-        margin-right:3em
+        max-width:30vw;
+        margin-right:2.5em;
     }
 
    form{
         display:flex;
         flex-direction:column;
-        width:60vw;
+        max-width:50vw;
         margin:auto;
     }
 
@@ -445,8 +445,12 @@ form{
         width:80%;
         margin:auto;
     }
-    foo{
+    footer{
+        max-height:10vh;
 
+    }
+    main{
+        width:90vw;
     }
 
 }
