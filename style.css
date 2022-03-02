@@ -13,20 +13,39 @@ header{
     left:0;
     background-color:rgb(43,69,43);
     max-width:100vw;
-    max-height:10vh;
+    min-height:8vh;
 }
 .navbar{
     display:flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:space-around;
     padding: 1em;
     opacity:1;
     width:100vw;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
+    align-items:center;
+
 }
-nav a{
+.navbar a{
     padding:0.75em;
     color:antiquewhite;
+    text-decoration: none;
+    border:1px solid white;
+    border-radius:1em;
+    padding:10px;
+    margin:auto;
+
+}
+nav a:visited{
+    color:aliceblue;
+}
+nav a:hover{
+    color:coral;
+    cursor:pointer;
+}
+nav a:active{
+    color:aqua;
+
 }
 body{
     font-family:Helvetica, Arial,serif;
@@ -44,11 +63,13 @@ main{
     justify-content:center;
     flex-direction:column;
     align-items:center;
+    margin-bottom:1em;
 }
 footer{
     position:fixed;
     bottom:0;
     left:0;
+    min-height:10vh;
     width:100vw;
     max-height:14vh;
     display:flex;
@@ -58,7 +79,8 @@ footer{
     font-size: .75em;
     background-color:rgb(43,69,43,1);
     color:aliceblue;
-    padding: .3em;;
+    padding: .3em;
+    margin-top:3em;
 }
 footer a{
     color:aliceblue;
@@ -70,7 +92,7 @@ footer a{
     justify-content:space-around;
     margin-top:.5em;
     flex-wrap:wrap;
-    
+
 
 }
 .social-media-footer img{
@@ -88,7 +110,7 @@ footer a{
     object-fit:contain;
     opacity:0;
     transition: opacity .2s;
-    
+
 
 }
 .twitter-icon-hover:hover{
@@ -104,6 +126,7 @@ footer a{
 #twitter:hover{
     background-image:url('images/twitter.gif');
 }
+/* Mobile-first layout */
 /*  Home page styling  */
 .Home{
     display: flex;
@@ -117,7 +140,7 @@ footer a{
     background-repeat: no-repeat;
     background-size: contain;
     scroll-margin-top: 5em;
-    border-radius:50px;*/  
+    border-radius:50px;*/
 }
 .Home img{
     max-height:80vh;
@@ -135,7 +158,7 @@ h2{
     margin-top:.7em;
     flex-wrap:wrap;
     width:80vw;
-    
+
 }
 /*About Me page styling*/
 .about_me{
@@ -156,7 +179,7 @@ h2{
     font-weight:900;
     font-size:2em;
     max-width: 80vw;
-    
+
 }
 .about_me h3{
     max-width: 80vw;
@@ -190,14 +213,49 @@ section div{
 }
 
 .resume{
-    display:inline-block;
-    
+    display:flex;
+
 }
 .resume img{
-    height:40px;
-    width:40px;
+    height:1.5em;
+    width:1.5em;
+    margin-left:10px;
 }
 /*Blog styling*/
+.blog-nav{
+    position:relative;
+    display:inline-block;
+}
+/*dropdown list(hidden by default)*/
+.dropdown-content{
+    display:none;
+    position:absolute;
+    z-index:1;
+}
+.dropdown{
+    font-size:1em;
+    font-weight:500;
+    font-style: italic;
+    color:antiquewhite;
+    background-color: rgba(43,69,43,.8);
+
+}
+.dropdown-content a{
+    color:antiquewhite;
+    text-decoration:none;
+    display:block;
+}
+/*dropdown list appear when hovering over */
+.blog-nav:hover .dropdown-content{
+    display:block;
+}
+.blog-nav:hover .dropdown-content a{
+    color:antiquewhite;
+    background-color:rgba(43,69,43,.8);
+}
+.blog-nav:hover .dropdown-content a:hover{
+    color:antiquewhite;
+}
 .blog-heading{
     margin-top:1.5em;
 }
@@ -206,10 +264,10 @@ section div{
     flex-direction:column;
 }
 .blog-nav{
-    
+    background-color:rgba(43,69,43,0.3);
 }
 .blog-content{
-    display:flex;   
+    display:flex;
     flex-direction:column;
     flex-wrap:wrap;
     justify-content:center;
@@ -224,20 +282,21 @@ section div{
 .blogs h4{
     margin:0.25em;
     font-size:1em;
-    margin-bottom:
+    margin-bottom:0.5em;
 }
 .blogs{
     display:flex;
     flex-direction:column;
     justify-content:center;
-   max-width:90vw;
+    max-width:90vw;
 }
 .blogs img{
-    width:;
-    height:;
-    border:2px solid white;
-    margin-top:0.5em;
-    margin-bottom:1em;
+    max-width:70vw;
+    max-height:50vh;
+    border:2px solid aliceblue;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+    align-self:center;
 }
 #blog5{
     margin-bottom:5em;
@@ -248,18 +307,33 @@ section div{
     margin-top:4em;
     width:10em;
     height:10em;
-   
+    justify-self:center;
     border-radius: 50%;
+}
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.tab-display{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 form{
     display:flex;
     justify-content:center;
     flex-direction:column;
+    padding:1em 0;
+    margin:auto;
+    width:80vw;
 
-    
-    padding:1em;
-    margin:1em;
-
+}
+.submit{
+    background:rgba(43,69,43,.8);
+    color:antiquewhite;
+    border-color: antiquewhite;
 }
 #phone{
     width:1em;
@@ -268,11 +342,15 @@ form{
     margin-top:.6em;
     margin-right:.4em;
     line-height:0.8em;
+    position:relative;
+    top:0.2em;
 }
 #email{
     width:1.1em;
     height:1.1em;
     background-color:aliceblue;
+    position:relative;
+    top:0.2em;
 }
 .info{
     width:auto;
@@ -301,3 +379,74 @@ form{
     background-color: aliceblue;
 }
 /*contact page styling finished*/
+
+/*tablet display*/
+
+@media screen and (min-width: 500px) {
+
+    /*contact page*/
+
+    .contact{
+        font-size:2em;
+        width:100vw;
+    }
+    .tab-display{
+        display:flex;
+        flex-direction:row;
+        margin-top:5em;
+        justify-content:center;
+        align-items:center;
+
+    }
+    .tab-display img{
+        width:30vw;
+        margin-right:3em
+    }
+
+   form{
+        display:flex;
+        flex-direction:column;
+        width:60vw;
+        margin:auto;
+    }
+
+
+
+}
+
+/* desktop view */
+
+@media screen and (min-width: 900px) {
+
+    /* contact page */
+
+    .Contact{
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        margin-bottom:3em;
+    }
+    .contact-info{
+        display:block;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding-top:10em;
+    }
+    .info{
+        display:block;
+        text-align:right;
+
+    }.contact-form{
+        margin:auto;
+    }
+    .social-media{
+        width:80%;
+        margin:auto;
+    }
+    foo{
+
+    }
+
+}
