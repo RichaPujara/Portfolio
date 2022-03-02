@@ -383,6 +383,40 @@ form{
 /*tablet display*/
 
 @media screen and (min-width: 500px) {
+    /* universal */
+    .navbar{
+        justify-content:flex-end;
+        margin-right:3em;
+    }
+    .navbar a{
+        margin-right:.8em;
+    }
+    /* Blogs */
+    .blogs img{
+        order:1;
+    }
+    .blog-heading{
+        margin-left:0.1em;
+        font-weight:800;
+        font-size:2.5em;
+        margin-top:1.5em;
+    }
+    .blog-nav{
+        position:fixed;
+        right:1em;
+        top:10em;
+    }
+    .blog-content{
+        max-width:60vw;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        margin-left:0;
+    }
+    .blogs{
+        text-align: :justify;
+    }
+
 
     /*contact page*/
 
@@ -417,7 +451,7 @@ form{
 /* desktop view */
 
 @media screen and (min-width: 900px) {
-
+    /* Blogs page */
     /* contact page */
 
     .Contact{
