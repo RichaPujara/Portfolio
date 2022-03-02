@@ -135,6 +135,9 @@ footer a{
     justify-content:center;
     width:80vw;
     height:80vh;
+    padding-top:2em;
+    margin:2em;
+    
     /*background-image:url("images/Richa\ Pujara-logos\ copy.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -146,8 +149,8 @@ footer a{
     max-height:80vh;
     max-width:80vw;
     border-radius: 2em;
-    position:relative;
-    top:3.35em;
+    /*position:relative;
+    top:3.35em;*/
     z-index:-1;
 }
 h1{
@@ -256,7 +259,7 @@ section div{
 .blog-nav:hover .dropdown-content a:hover{
     color:antiquewhite;
 }
-.blog-heading{
+.main-heading{
     margin-top:1.5em;
 }
 .blog{
@@ -391,11 +394,26 @@ form{
     .navbar a{
         margin-right:.8em;
     }
+    /* Home page styling */
+    .Home img{
+        padding:3em;
+        border-radius:5em;
+    }
+
     /* Blogs */
     .blogs img{
         order:1;
+        max-height:15em;
+        max-width:15em;
     }
-    .blog-heading{
+    .blog{
+        max-width:30em;
+        display:flex;
+        
+        justify-content:flex-start;
+        align-items: left;
+    }
+    .main-heading{
         margin-left:0.1em;
         font-weight:800;
         font-size:2.5em;
@@ -407,14 +425,16 @@ form{
         top:10em;
     }
     .blog-content{
-        max-width:60vw;
+        max-width:80vw;
+        justify-content:left;
+
+    }
+    .blogs{
+        text-align:justify;
         display:flex;
         flex-direction:column;
         justify-content:flex-start;
-        margin-left:0;
-    }
-    .blogs{
-        text-align: :justify;
+
     }
 
 
@@ -450,7 +470,15 @@ form{
 
 /* desktop view */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) and (min-height) {
+    /* home page */
+    .Home{
+        
+        align-items: center;
+    }
+    
+    
+    
     /* Blogs page */
     /* contact page */
 
