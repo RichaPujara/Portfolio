@@ -180,24 +180,22 @@ form{
     margin-top:4em;
     width:20vw;
     height:20em;
-    border-radius: 50%;
+    border-radius: 20%;
 }
-
 #phone{
     width:1em;
     height:1em;
-    background-color:aliceblue;
+    background-color:antiquewhite;
     margin-top:.6em;
     margin-right:.4em;
     line-height:0.8em;
     position:relative;
     top:0.2em;
 }
-
 #email{
     width:1.1em;
     height:1.1em;
-    background-color:aliceblue;
+    background-color:antiquewhite;
     position:relative;
     top:0.2em;
 }
@@ -222,7 +220,7 @@ form{
 .social-media img{
     height:3em;
     width:3em;
-    background-color: aliceblue;
+    background-color: antiquewhite;
 }
 
 .contact-form{
@@ -480,7 +478,11 @@ section div{
         width:auto;
         margin:auto 0;
     }
-
+    #logo {
+        max-width: 50vw;
+        border-radius:20%;
+        max-height:40vw;
+    }
     /* Contact Page Styling finished*/
 
 }
@@ -555,7 +557,7 @@ section div{
     }
     #logo {
         max-width: 40vw;
-        border-radius: 50%;
+        border-radius:20%;
         align-self: center;
         max-height:40vw;
         margin-top:0;
