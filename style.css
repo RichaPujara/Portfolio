@@ -63,10 +63,7 @@ header img{
 /* footer */
 
 footer{
-    position:fixed;
-    bottom:0;
-    left:0;
-    min-height:10vh;
+
     width:100vw;
     max-height:14vh;
     display:flex;
@@ -103,51 +100,101 @@ footer{
 
 /* Home Page Styling */
 .Home{
-    width:80vw;
-    height:80vh;
     display:flex;
     align-items:center;
+    width:80vw;
+    height:80vh;
     justify-content:space-between;
     font-size:20px;
     font-family:"Lobster";
     color:#2b452b;
-
+    margin:auto;
 }
+
 .photo{
     padding:2vw;
-    margin:3vw;
+    margin: auto;
     height:30%;
     width:30%;
-
 }
+
 .photo img{
     border:.5em solid #2b452b;
     border-radius:20%;
-    width:30vw;
-    height:30vw;
-    position:relative;
-    bottom:2em;
-
+    max-width:30vw;
+    max-height:30vh;
 }
 
 .bio{
     text-align:justify;
     padding-left:10vw;
-    width:100vw;
-
+    max-width:60vw;
+    max-height:60vh;
 }
+
 .bio-title{
     text-align:center;
     margin-bottom:2em;
+    font-size:2vw;
 }
+
 .bio-title h1{
     text-transform: uppercase;
 }
+
+.description{
+    font-family:"Architects Daughter","sans-serif";
+    font-size:2vw;
+}
+
 /* Tablet view */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
+
+    /* Footer*/
+    footer{
+        position:fixed;
+        bottom:0;
+        left:0;
+        min-height:10vh;
+    }
+
     /* Home page */
+    .Home{
+        justify-content: flex-start;
+    }
+
+    .photo{
+        padding:2vw;
+        margin: auto;
+    }
+
+    .photo img{
+        border:.5em solid #2b452b;
+        border-radius:20%;
+        max-width:30vw;
+        max-height:30vh;
+    }
+
+    .bio{
+        text-align:justify;
+        max-width:50vw;
+        max-height:50vh;
+        margin-left:2em;
+
+    }
+
+    .bio-title{
+        text-align:center;
+        margin-bottom:2em;
+        font-size:11pt;
+    }
+
+    .description{
+        font-size:10pt;
+    }
 
 }
+
 /* Mobile View */
 @media screen and (max-width: 450px) {
     /* Header */
@@ -164,13 +211,44 @@ footer{
         border:3px solid antiquewhite;
         border-radius: 0.5em;
     }
-
+    .navbar{
+        flex-wrap:wrap;
+    }
+    /* Footer*/
+    footer{
+        position:fixed;
+        bottom:0;
+        left:0;
+        min-height:10vh;
+    }
     /* Home page */
+    .Home{
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        margin-top: 1em;
+    }
     .bio{
         display:flex;
         flex-direction:column;
         justify-content:center;
-        align-items:center;1
+        align-items:center;
+        margin:1em auto;
+        padding:0;
+        max-width:80vw;
+    }
+   .photo{
+       margin:auto;
+       padding:0;
+   }
+
+    .bio-title{
+        font-size:15px;
     }
 
+    .description{
+        font-size:14px;
+    }
 }
