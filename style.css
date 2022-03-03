@@ -259,55 +259,36 @@ main{
 /* Contact Page Styling finished*/
 
 /* Blog Page styling starts*/
-.blog-nav{
-    position:fixed;
-    display:inline-block;
-    right:1em;
-    top:10em;
+
+.main-heading{
+    font-weight:800;
+    font-size:2.5em;
+    width:60vw;
+    margin:auto;
 }
-/*dropdown list(hidden by default)*/
-.dropdown-content{
-    display:none;
-    position:absolute;
-    z-index:1;
+.blog{
+    display:flex;
+    width:60vw;
+    margin-left:2em;
+
+}
+.blog-nav{
+        position:fixed;
+        display:inline-block;
+        right:5vw;
+        top:15vh;
+    }
+.blog-nav{
+    background-color:rgba(43,69,43,0.8);
 }
 .dropdown{
-    font-size:1em;
-    font-weight:500;
-    font-style: italic;
-    color:antiquewhite;
-    background-color: rgba(43,69,43,.8);
+    display:none;
+
 }
 .dropdown-content a{
     color:antiquewhite;
     text-decoration:none;
     display:block;
-}
-/*dropdown list appear when hovering over */
-.blog-nav:hover .dropdown-content{
-    display:block;
-}
-.blog-nav:hover .dropdown-content a{
-    color:antiquewhite;
-    background-color:rgba(43,69,43,.8);
-}
-.blog-nav:hover .dropdown-content a:hover{
-    color:antiquewhite;
-}
-.main-heading{
-    margin-left:0.1em;
-    font-weight:800;
-    font-size:2.5em;
-    margin-top:1.5em;
-}
-.blog{
-    display:flex;
-    max-width:30em;
-    justify-content:flex-start;
-    align-items: left;
-}
-.blog-nav{
-    background-color:rgba(43,69,43,0.3);
 }
 .blogs h3{
     margin-top:0.75em;
@@ -324,17 +305,14 @@ main{
 }
 .blog-content{
     display:flex;
-    flex-direction:column;
     flex-wrap:wrap;
-    justify-content:left;
-    max-width:80vw;
-    align-items: center;
     text-align:justify;
+    width:40vw;
 }
 .blogs{
     display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
+    flex-direction:row;
+    justify-content:space-between;
     text-align:justify;
 }
 .blogs img{
@@ -484,6 +462,45 @@ section div{
         max-height:40vw;
     }
     /* Contact Page Styling finished*/
+
+    /*Blog page Styling starts */
+
+    .blog-nav{
+        position:fixed;
+        display:inline-block;
+        right:5vw;
+        top:15vh;
+    }
+    /*dropdown list(hidden by default)*/
+    .dropdown-content{
+        display:none;
+        position:fixed;
+        z-index:1;
+    }
+    .dropdown{
+        display:block;
+        font-size:1em;
+        font-weight:500;
+        font-style: italic;
+        color:antiquewhite;
+        background-color: rgba(43,69,43,.8);
+    }
+    .dropdown-content a{
+        color:antiquewhite;
+        text-decoration:none;
+        display:block;
+    }
+    /*dropdown list appear when hovering over */
+    .blog-nav:hover .dropdown-content{
+        display:block;
+    }
+    .blog-nav:hover .dropdown-content a{
+        color:antiquewhite;
+        background-color:rgba(43,69,43,.8);
+    }
+    .blog-nav:hover .dropdown-content a:hover{
+        color:antiquewhite;
+    }
 
 }
 
