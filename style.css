@@ -25,6 +25,7 @@ header{
     background-color:#2b452b ;
     padding:0 2em;
     width:100vw;
+    top:0;
 }
 header img{
     height:3em;
@@ -75,8 +76,9 @@ footer{
     padding: .3em;
     margin-top:3em;
     font-family:"Architects Daughter","sans-serif";
-    position:absolute;
+    position:fixed;
     bottom:0;
+
 }
 .social-media-footer img{
     width:3em;
@@ -229,8 +231,6 @@ form{
     justify-content:center;
 }
 
-
-
 .contact-info{
     display:block;
     flex-direction:column;
@@ -259,6 +259,159 @@ main{
     width:90vw;
 }
 /* Contact Page Styling finished*/
+
+/* Blog Page styling starts*/
+.blog-nav{
+    position:fixed;
+    display:inline-block;
+    right:1em;
+    top:10em;
+}
+/*dropdown list(hidden by default)*/
+.dropdown-content{
+    display:none;
+    position:absolute;
+    z-index:1;
+}
+.dropdown{
+    font-size:1em;
+    font-weight:500;
+    font-style: italic;
+    color:antiquewhite;
+    background-color: rgba(43,69,43,.8);
+}
+.dropdown-content a{
+    color:antiquewhite;
+    text-decoration:none;
+    display:block;
+}
+/*dropdown list appear when hovering over */
+.blog-nav:hover .dropdown-content{
+    display:block;
+}
+.blog-nav:hover .dropdown-content a{
+    color:antiquewhite;
+    background-color:rgba(43,69,43,.8);
+}
+.blog-nav:hover .dropdown-content a:hover{
+    color:antiquewhite;
+}
+.main-heading{
+    margin-left:0.1em;
+    font-weight:800;
+    font-size:2.5em;
+    margin-top:1.5em;
+}
+.blog{
+    display:flex;
+    max-width:30em;
+    justify-content:flex-start;
+    align-items: left;
+}
+.blog-nav{
+    background-color:rgba(43,69,43,0.3);
+}
+.blogs h3{
+    margin-top:0.75em;
+    text-align:left;
+    font-size:1.5em;
+}
+.blogs h4{
+    margin:0.25em;
+    font-size:1em;
+    margin-bottom:0.5em;
+}
+#blog5{
+    margin-bottom:5em;
+}
+.blog-content{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:left;
+    max-width:80vw;
+    align-items: center;
+    text-align:justify;
+}
+.blogs{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    text-align:justify;
+}
+.blogs img{
+    order:1;
+    max-height:15em;
+    max-width:15em;
+    border:2px solid aliceblue;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+    align-self:center;
+}
+/* Blog Page styling finished*/
+
+/* About Me Page styling starts*/
+/*About Me page styling*/
+.about_me{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+    top:3em;
+    margin-bottom:10em;
+}
+.photo-self{
+    border-radius:50%;
+    border:2px solid rgb(43,69,43);
+    z-index:-1;
+}
+.about_me h1{
+    font-weight:900;
+    font-size:2em;
+    max-width: 80vw;
+
+}
+.about_me h3{
+    max-width: 80vw;
+}
+.about_me p{
+    max-width:80vw;
+    justify-content:center;
+}
+.qualification{
+    display:flex;
+    flex-direction:column;
+    border: 1px solid black;
+    flex-wrap:nowrap;
+    margin:1em;
+}
+.qualification h3{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    border:1px dotted ;
+}
+.Education, .Experience{
+    display:flex;
+    flex-direction:row;
+    max-width:80vw;
+    padding:1em;
+}
+section div{
+    padding: 0.5em;
+    margin:0.5em;
+
+}
+.resume{
+    display:flex;
+
+}
+.resume img{
+    height:1.5em;
+    width:1.5em;
+    margin-left:10px;
+}
+/* About Me Page styling finished*/
 
 /* Tablet view */
 @media screen and (max-width: 1024px) {
@@ -411,4 +564,32 @@ main{
         margin:1em auto;
     }
     /* Contact Page Styling finished*/
+
+    /* Blog Page styling starts*/
+    .blog-nav{
+        position:relative;
+    }
+    .main-heading{
+        margin-left:0;
+        font-weight:800;
+        font-size:2.5em;
+    }
+    .blog{
+        display:flex;
+        flex-direction:column;
+    }
+    .blog-content{
+        justify-content:center;
+    }
+    .blogs{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        max-width:90vw;
+    }
+    .blogs img{
+        max-width:70vw;
+        max-height:50vh;
+    }
+    /* Blog Page styling finished*/
 }
