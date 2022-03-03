@@ -11,6 +11,8 @@
 body{
     width:100vw;
     background-color: antiquewhite;
+    font-family:"Architects Daughter","sans-serif";
+    color:#2b452b;
 }
 
 
@@ -250,7 +252,7 @@ form{
 }
 .contact-form h1,h3{
     text-align:center;
-
+    font-family:"Lobster";
 }
 
 main{
@@ -263,23 +265,25 @@ main{
 .main-heading{
     font-weight:800;
     font-size:2.5em;
-    width:60vw;
-    margin:auto;
+    width:80vw;
+    margin:2vw auto;
+    font-family:"Lobster";
+    color:#2b452b;
 }
 .blog{
     display:flex;
     width:60vw;
-    margin-left:2em;
+    margin-left:6vw;
+
 
 }
 .blog-nav{
-        position:fixed;
-        display:inline-block;
-        right:5vw;
-        top:15vh;
-    }
-.blog-nav{
-    background-color:rgba(43,69,43,0.8);
+    position:fixed;
+    display:inline-block;
+    right:10vw;
+    top:25vh;
+
+
 }
 .dropdown{
     display:none;
@@ -289,6 +293,8 @@ main{
     color:antiquewhite;
     text-decoration:none;
     display:block;
+    margin-top:2em;
+    background-color:rgba(43,69,43,0.8);
 }
 .blogs h3{
     margin-top:0.75em;
@@ -301,7 +307,7 @@ main{
     margin-bottom:0.5em;
 }
 #blog5{
-    margin-bottom:5em;
+    margin-bottom:15vh;
 }
 .blog-content{
     display:flex;
@@ -314,11 +320,13 @@ main{
     flex-direction:row;
     justify-content:space-between;
     text-align:justify;
+    border: 1px dotted #2b452b;
+    margin:1em;
 }
 .blogs img{
     order:1;
-    max-height:15em;
-    max-width:15em;
+    height:15em;
+    width:15em;
     border:2px solid aliceblue;
     margin-top:1.5em;
     margin-bottom:1.5em;
@@ -346,6 +354,7 @@ main{
     font-weight:900;
     font-size:2em;
     max-width: 80vw;
+    font-family: Lobster;
 
 }
 .about_me h3{
