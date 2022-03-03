@@ -1,16 +1,20 @@
 /* general styling */
 .root{
     --dark: #2b452b;
-    --light:
+    --light: antiquewhite;
 }
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
+body{
+    width:100vw;
+    background-color: antiquewhite;
+}
 
 
-/* Mobile View */
+/* Desktop View */
 
 /* Costant Styling */
 /* Header */
@@ -98,16 +102,53 @@ footer{
 
 
 /* Home Page Styling */
+.Home{
+    width:80vw;
+    height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:20px;
+    font-family:"Lobster";
+    color:#2b452b;
 
+}
+.photo{
+    padding:2vw;
+    margin:3vw;
+    height:30%;
+    width:30%;
 
-
-
-/* Tablet view */
-@media screen and (max-width: 900px) {
-    /* Header */
+}
+.photo img{
+    border:.5em solid #2b452b;
+    border-radius:20%;
+    width:30vw;
+    height:30vw;
+    position:relative;
+    bottom:2em;
 
 }
 
+.bio{
+    text-align:justify;
+    padding-left:10vw;
+    width:100vw;
+
+}
+.bio-title{
+    text-align:center;
+    margin-bottom:2em;
+}
+.bio-title h1{
+    text-transform: uppercase;
+}
+/* Tablet view */
+@media screen and (max-width: 900px) {
+    /* Home page */
+
+}
+/* Mobile View */
 @media screen and (max-width: 450px) {
     /* Header */
     header {
@@ -119,10 +160,17 @@ footer{
     }
 
     header img{
-        height:3em;
-        width:3em;
+
         border:3px solid antiquewhite;
         border-radius: 0.5em;
+    }
+
+    /* Home page */
+    .bio{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;1
     }
 
 }
