@@ -536,7 +536,7 @@ main {
     width: 60vw;
   }
   .blogs img {
-    align-self: left;
+    align-self:center;
   }
   /*About Me page Styling starts */
   .qual {
