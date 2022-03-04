@@ -82,7 +82,7 @@
 
    b.About Me page
 
-   ![Tablet-About-Me](docs/Table%20-%20About%20Me.png)
+   ![Tablet-About-Me](docs/Tablet%20-%20About%20Me.png)
 
    c. Blog Page
 
@@ -110,7 +110,7 @@
 
    ![mobile-Contact](docs/Mobile%20-%20Contact%20Me.png)
 
-   
+
 ## 5. Target Audience: 
 
    Educators, Fellow developers, prospective clients/ employers
