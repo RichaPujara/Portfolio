@@ -50,15 +50,12 @@ header img {
   font-weight: 600;
 }
 
-.navbar a:active {
+.navbar :active {
   color: blueviolet;
 }
 .navbar a:hover {
   color: aquamarine;
   cursor: pointer;
-}
-.navbar a:visited {
-  color: aliceblue;
 }
 
 /* footer */
@@ -71,7 +68,7 @@ footer {
   align-items: center;
   font-size: 0.75em;
   background-color: rgb(43, 69, 43, 1);
-  color: aliceblue;
+  color: antiquewhite;
   padding: 0.3em;
   margin-top: 3em;
   font-family: "Architects Daughter", "sans-serif";
@@ -95,6 +92,14 @@ footer {
 .credits {
   text-decoration: none;
   color: antiquewhite;
+}
+
+.static {
+  position:absolute;
+}
+
+.static:hover {
+  opacity:0;
 }
 
 /* Home Page Styling starts*/
@@ -574,7 +579,6 @@ main {
     align-items: center;
     height: fit-content;
     margin-top: 1em;
-    background-color: blue;
   }
   .bio {
     display: flex;
