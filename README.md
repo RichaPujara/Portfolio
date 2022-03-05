@@ -51,7 +51,11 @@
 
 ## 3. Sitemap:
 
-   ![Sitemap](docs/Sitemap.png)
+   https://octopus.do/s118ll7ltsg
+
+   Screenshot of Visual sitemap
+
+   ![Sitemap Screenshot](docs/Sitemap%20screenshot.png)
 
 
 ## 4. Screenshots:
