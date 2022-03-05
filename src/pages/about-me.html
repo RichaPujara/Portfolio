@@ -1,19 +1,42 @@
+<!-- About Me Page-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!--Page Title- showing on browser tab-->
+    
     <title>About Me</title>
+
+    <!--Connect the stylesheet to the document-->
+
     <link rel="stylesheet" href="../css/style.css" />
+
+    <!--SHOWS THE FAVICON ON THE BROWSER TAB-->
+
     <link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon" />
+
+    <!--IMPORT THE EXTERNAL STYLESHEET FOR FONTS FROM GOOGLE FONTS-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Architects+Daughter&family=Shadows+Into+Light&family=Source+Code+Pro:wght@200&family=Indie+Flower&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    <!-- HEADER SECTION-->
+
     <header>
+
+      <!--RICHA PUJARA LOGO ON HEADER-->
+
       <img src="../resources/images/logo-rp-main.jpeg" alt="logo"/>
+
+      <!-- NAVIGATION BAR TO ACCESS OTHER PAGES ON THE WEBSITE-->
+
       <nav class="navbar">
         <span><a href="../index.html">Home</a></span>
         <span><a href="../pages/about-me.html">About</a></span>
@@ -21,7 +44,13 @@
         <span><a href="../pages/contact.html">Contact</a></span>
       </nav>
     </header>
+
+    <!-- MAIN CONTENT OF THE PAGE-->
+
     <main class="about">
+
+      <!--HEADING, PHOTO AND ABOUT ME-->
+
       <article class="about_me">
         <h1>About Me</h1>
         <img class="photo-self" src="../resources/images/photo.jpeg" alt="self-photo"/>
@@ -29,11 +58,8 @@
         <p>
           I am currently a student of Coder Academy Bootcamp and I will graduate
           in July 2022. I will be skilled in HTML, CSS, Ruby, SQL, JavaScript,
-          React. I aspire to have completed few projects to have hands on
-          experience. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Laudantium, natus! Laborum error voluptatem quis, adipisci maiores eum
-          sunt exercitationem natus dicta totam hic expedita nostrum ducimus
-          quae quasi ratione veritatis.
+          React. I will have completed few projects to have a little hands on
+          experience. Along with coding, I love gardening.
         </p>
         <article class="qual">
           <section class="qualification">
@@ -63,17 +89,22 @@
             </div>
           </section>
         </article>
+
+        <!--TECH STACK LOGOS-->
+
         <section class="qualification">
           <h3>Tech Stack</h3>
-          <section class="tech-stack">
+          <div class="tech-stack">
             <img src="../resources/images/logo-html.svg" alt="html logo" />
             <img src="../resources/images/logo-rails.svg" alt="Rails logo" />
             <img src="../resources/images/logo-css.svg" alt="css3 logo" />
             <img src="../resources/images/logo-mysql.svg" alt="mysql logo" />
             <img src="../resources/images/logo-reactjs.svg" alt="react logo" />
             <img src="../resources/images/logo-python.svg" alt="python logo" />
-          </section>
+          </div>
         </section>
+
+        <!--DOWNLOADABLE RESUME-->
 
         <section class="resume">
           <span>Resume</span>
@@ -81,6 +112,9 @@
         </section>
       </article>
     </main>
+
+    <!--FOOTER-->
+    
     <footer>
         <div class="social-media-footer">
             <a id="github" href="https://github.com/RichaPujara/Portfolio" target="_blank">

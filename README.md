@@ -8,7 +8,7 @@
 
 ## 1. Purpose: 
    
-   Currently this website is built as a part of an assignment for my Diploma in I.T. course. The purpose of the website is to showcase my learning to my educators and fellow developers. I intend to keep it updated in future and use it to showcase my skills and abilities to outer world and prospective employer/client.
+   Currently this website is built as a part of an assignment for my Diploma in I.T. course. The purpose of the website is to showcase my learning to the educators and fellow developers. I intend to keep it updated in future and use it to showcase my skills and abilities to outer world, prospective employers looking to engage a developer and/or IT professional and prospective clients.
 
 
 ## 2. Functionality/features:
@@ -29,7 +29,7 @@
 
    - **Contact Me Page**:
 
-      The general contact information including address, phone no and Email address. Clicking on the ***email icon*** directly opens the email client. It also contains a form through which the user can submit the query. The social media icons provides the direct links to the professional accounts.
+      The general contact information including address, phone no and Email address. Clicking on the ***email address*** directly opens the email client and phone opens the direct calling option (provided the user device has appropriate enabled features).  It also contains a form through which the user can submit the query. The social media icons provides the direct links to the professional accounts.
       
 
    - **Header**:
@@ -38,9 +38,14 @@
 
    - **Footer**:
 
-      The footer on each page consists of copyrights and link to ***credits*** page. Images and icons in Blogs and tech stack have been utilized from online sources. Reference to these sources have been mentioned in the credits page. 
+      The footer on each page consists of copyrights and link to ***credits*** page. Various images and icons throughout the site have been utilized from online sources. Reference to these sources have been mentioned in the credits page. 
 
-      The footer also contains the ***social media icons*** which are linked to my professional accounts. These icons shows a little animation upon hovering to increase the 
+      The footer also contains the ***social media icons*** which are linked to my professional accounts. These icons shows a little animation upon hovering to increase the user engagement.
+
+   - **Responsiveness**- 
+
+      The website is designed to change the layout with changing device size. 
+
 
 
 
@@ -117,9 +122,10 @@
 
 ## 5. Target Audience: 
 
-   Educators, Fellow developers, prospective clients/ employers
+   Educators, Fellow developers, prospective employers who are looking to engage developer and/or IT professional and prospective clients. 
 
 
 ## 6. Tech Stack: 
 
  HTML5 and CSS
+ Deployment platform: Netlify
