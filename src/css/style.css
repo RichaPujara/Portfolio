@@ -473,6 +473,16 @@ form {
   cursor: pointer;
 }
 
+/* CREDITS PAGE STYLING */
+
+.CREDITS{
+  margin:5em auto;
+}
+.CREDITS li{
+  padding:1em;
+  margin-left: 1em;
+}
+
 /* STYLING FOR TABLET VIEW  ADAPTATION */
 
 @media screen and (max-width: 1024px) {
