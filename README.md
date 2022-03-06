@@ -62,66 +62,66 @@
 
    a. Home page
 
-   ![Desktop-Home](docs/Desktop%20-%20Home.png)
+   ![Desktop-Home](docs/Desktop-Home.png)
 
    b. About Me page
 
-   ![Desktop-About-Me](docs/Desktop%20-%20About%20Me.png)
+   ![Desktop-About-Me](docs/Desktop-About-Me.png)
 
    c. Blogs Page
 
-   ![Desktop-Blogs](docs/Desktop%20-%20Blogs.png)
+   ![Desktop-Blogs](docs/Desktop-Blogs.png)
 
    d. Contact page
 
-   ![Desktop-Contact-Me](docs/Desktop%20-%20Contact%20me.png)
+   ![Desktop-Contact-Me](docs/Desktop-Contact-Me.png)
 
    e. Credits page
 
-   ![Credits](doces/../docs/Desktop%20-%20Credits.png)
+   ![Credits](doces/../docs/Desktop-Credits.png)
 
    #### 4.2 Tablet View
 
    a. Home page
 
-   ![Tablet-Home](docs/Tablet%20-%20Home.png)
+   ![Tablet-Home](docs/Tablet-Home.png)
 
    b. About Me page
 
-   ![Tablet-About-Me](docs/Tablet%20-%20About%20Me.png)
+   ![Tablet-About-Me](docs/Tablet-About-Me.png)
 
    c. Blogs Page
 
-   ![Tablet-Blogs](docs/Tablet%20-%20Blogs.png)
+   ![Tablet-Blogs](docs/Tablet-Blogs.png)
 
    d. Contact Me page
 
-   ![Tablet-Contact-Me](docs/Tablet%20-%20Contact%20Me.png)
+   ![Tablet-Contact-Me](docs/Tablet-Contact-Me.png)
 
    e. Credits page
 
-   ![Credits](docs/Tablet%20-%20Credits.png)
+   ![Credits](docs/Tablet-Credits.png)
 
    #### 4.2 Mobile View
 
    a. Home page
 
-   ![Mobile-Home](docs/Mobile%20-%20Home.png)
+   ![Mobile-Home](docs/Mobile-Home.png)
 
    b. About Me page:
 
-   ![Mobile-About-Me](docs/Mobile%20-%20Blogs.png)
+   ![Mobile-About-Me](docs/Mobile-Blogs.png)
 
    c. Blogs Page
 
-   ![Mobile-Blogs](docs/Mobile%20-%20Blogs.png)
+   ![Mobile-Blogs](docs/Mobile-Blogs.png)
 
    d. Contact Me page:
 
-   ![Mobile-Contact-Me](docs/Mobile%20-%20Contact%20Me.png)
+   ![Mobile-Contact-Me](docs/Mobile-Contact-Me.png)
 
    e. Credits page
-   ![Credits](docs/Mobile%20-%20Credits.png)
+   ![Credits](docs/Mobile-Credits.png)
 
 
 ## 5. Target Audience: 
