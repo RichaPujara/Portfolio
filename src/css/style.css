@@ -670,11 +670,10 @@ form {
   .Home {
     flex-direction: column;
     width: 100vw;
-    height:70vh;
+    height:60vh;
     justify-content: center;
     align-items: center;
     margin: 1em auto;
-    
   }
   .bio {
     display: flex;
