@@ -47,13 +47,6 @@
       The website is designed to change the layout with changing device size. 
 
 
-
-
-
-   
-
-
-
 ## 3. Sitemap:
 
    https://octopus.do/s118ll7ltsg
@@ -65,23 +58,27 @@
 
 ## 4. Screenshots:
 
- #### 4.1 Desktop View
+   #### 4.1 Desktop View
 
    a. Home page
 
    ![Desktop-Home](docs/Desktop%20-%20Home.png)
 
-   b.About Me page
+   b. About Me page
 
    ![Desktop-About-Me](docs/Desktop%20-%20About%20Me.png)
 
-   c. Blog Page
+   c. Blogs Page
 
-   ![Desktop-Blog](docs/Desktop%20-%20Blogs.png)
+   ![Desktop-Blogs](docs/Desktop%20-%20Blogs.png)
 
    d. Contact page
 
    ![Desktop-Contact-Me](docs/Desktop%20-%20Contact%20me.png)
+
+   e. Credits page
+
+   ![Credits](doces/../docs/Desktop%20-%20Credits.png)
 
    #### 4.2 Tablet View
 
@@ -89,17 +86,21 @@
 
    ![Tablet-Home](docs/Tablet%20-%20Home.png)
 
-   b.About Me page
+   b. About Me page
 
    ![Tablet-About-Me](docs/Tablet%20-%20About%20Me.png)
 
-   c. Blog Page
+   c. Blogs Page
 
-   ![Tablet-Blog](docs/Tablet%20-%20Blogs.png)
+   ![Tablet-Blogs](docs/Tablet%20-%20Blogs.png)
 
-   d. contact Me page
+   d. Contact Me page
 
-   ![Tablet-Contact](docs/Tablet%20-%20Contact%20Me.png)
+   ![Tablet-Contact-Me](docs/Tablet%20-%20Contact%20Me.png)
+
+   e. Credits page
+
+   ![Credits](docs/Tablet%20-%20Credits.png)
 
    #### 4.2 Mobile View
 
@@ -109,15 +110,18 @@
 
    b. About Me page:
 
-   ![Mobile-About-Me](docs/Mobile%20-%20About%20Me.png)
+   ![Mobile-About-Me](docs/Mobile%20-%20Blogs.png)
 
-   c. Blog Page
+   c. Blogs Page
 
-   ![Mobile-Blog](docs/Tablet%20-%20Blogs.png)
+   ![Mobile-Blogs](docs/Mobile%20-%20Blogs.png)
 
    d. Contact Me page:
 
-   ![mobile-Contact](docs/Mobile%20-%20Contact%20Me.png)
+   ![Mobile-Contact-Me](docs/Mobile%20-%20Contact%20Me.png)
+
+   e. Credits page
+   ![Credits](docs/Mobile%20-%20Credits.png)
 
 
 ## 5. Target Audience: 
